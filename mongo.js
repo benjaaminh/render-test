@@ -10,7 +10,7 @@ const password = process.argv[2]
 const url =
   `mongodb+srv://fullstack:${password}@cluster0.t9itv0a.mongodb.net/phonebookApp?retryWrites=true&w=majority`
 
-  mongoose.set('strictQuery',false)
+mongoose.set('strictQuery',false)
 mongoose.connect(url)
 
 const noteSchema = new mongoose.Schema({
