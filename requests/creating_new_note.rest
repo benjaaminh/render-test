@@ -3,6 +3,6 @@ POST http://localhost:3001/api/notes
 content-type: application/json
 
 {
-    "name": "sample",
+    "content": "same",
     "important": false
 }
